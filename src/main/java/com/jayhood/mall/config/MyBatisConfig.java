@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * Created by macro on 2019/4/8.
  */
 @Configuration
-@MapperScan("com.jayhood.mall.mbg.mapper")
+@MapperScan({"com.jayhood.mall.mbg.mapper", "com.jayhood.mall.dao"})
 public class MyBatisConfig {
 }
 

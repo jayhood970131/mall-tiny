@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.jayhood.mall.dao")
 public class MallApplication {
 
     public static void main(String[] args) {

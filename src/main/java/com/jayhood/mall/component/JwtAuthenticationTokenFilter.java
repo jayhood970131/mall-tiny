@@ -53,6 +53,5 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             }
         }
         filterChain.doFilter(httpServletRequest, httpServletResponse);
-
     }
 }
